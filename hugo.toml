@@ -1,6 +1,7 @@
 baseURL = 'https://abu-bakar.co.uk/'
 languageCode = 'en-gb'
 title = "Abu Bakar's Blog"
+theme = 'xmin'
 
 [caches]
   [caches.images]

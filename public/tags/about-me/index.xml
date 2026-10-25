@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-Me on Abu Bakar&#39;s Blog</title>
+    <link>http://localhost:1313/tags/about-me/</link>
+    <description>Recent content in About-Me on Abu Bakar&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 25 Oct 2026 18:05:21 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Sun, 25 Oct 2026 18:05:21 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to my blog!&lt;/p&gt;&#xA;&lt;p&gt;My name is Abu Bakar, and I&amp;rsquo;m a Computer Science Undergraduate at the University of the West of England. I&amp;rsquo;m passionate about embedded systems, security research, and software development. In my spare time, I like to solve CTFs.&lt;/p&gt;&#xA;&lt;p&gt;Here I&amp;rsquo;ll publish articles on:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Hardware security&lt;/li&gt;&#xA;&lt;li&gt;My projects&lt;/li&gt;&#xA;&lt;li&gt;Essays on topics that interest me&lt;/li&gt;&#xA;&lt;li&gt;Walkthroughs of certifications, capture-the-flags, and other security challenges&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;You may remember my old self-hosted blog. Let&amp;rsquo;s hope that this one doesn&amp;rsquo;t die too!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
