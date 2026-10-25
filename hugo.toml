@@ -1,6 +1,6 @@
 baseURL = 'https://abu-bakar.co.uk/'
 languageCode = 'en-gb'
-title = 'Abu Bakar's Blog'
+title = "Abu Bakar's Blog""
 
 [caches]
   [caches.images]
