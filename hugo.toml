@@ -6,24 +6,27 @@ author = "0x4bubakar"
 description = "Security research, embedded systems development, and related musings."
 
 [permalinks]
- posts = "/posts/:slug"
+  posts = "/posts/:slug"
 
 [params]
- footer = "&copy; 2026 abu-bakar.co.uk - all rights reserved | Built with <3 using [Hugo](https://gohugo.io/) and Yihui Xie's [XMin](https://xmin.yihui.org/) theme. "
+  footer = "&copy; 2026 abu-bakar.co.uk - all rights reserved | Built with <3 using [Hugo](https://gohugo.io/) and Yihui Xie's [XMin](https://xmin.yihui.org/) theme."
 
 [menu]
- [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
- [[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 2
- [[menu.main]]
-  name = "Categories"
-  url = "/categories/"
-  weight = 3
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
 
 [taxonomies]
   tag = "tags"
@@ -34,9 +37,9 @@ description = "Security research, embedded systems development, and related musi
     dir = ':cacheDir/images'
 
 [markup]
- [markup.highlight]
-   style = "github"
-   lineNos = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
 
   [markup.goldmark.renderer]
     unsafe = true
