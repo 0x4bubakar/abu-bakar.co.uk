@@ -6,12 +6,82 @@
     <title>Tags | Abu Bakar&#39;s Blog</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
-    
+    <style>
+    :root {
+        --bg-color: #fcfaf7;
+        --text-color: #2c2a29;
+        --link-color: #9c4a23;
+        --border-color: #e6e2d8;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg-color: #1c1a19;
+            --text-color: #e6e1dc;
+            --link-color: #d48357;
+            --border-color: #383432;
+        }
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        font-family: Tahoma, Verdana, Segoe UI, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.01em;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 1rem;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    code,
+    pre {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 13px;
+    }
+
+    a {
+        color: var(--link-color);
+    }
+
+    hr,
+    border {
+        border-color: var(--border-color);
+    }
+
+    footer {
+        margin-top: auto;
+        padding-bottom: 2rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: Tahoma, Verdana, sans-serif;
+        font-weight: bold;
+        letter-spacing: 0;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+    }
+</style>
   </head>
 
   <body>
     <nav>
-    <ul class="menu">
+      <ul class="menu">
+      <h1>ABU-BAKAR.CO.UK</h1>
       
       <li><a href="/">Home</a></li>
       
@@ -32,6 +102,16 @@
 <ul>
   
   
+  
+  <li>
+    <span class="date">2026/11/06</span>
+    <a href="/tags/markdown/">Markdown</a>
+  </li>
+  
+  <li>
+    <span class="date">2026/11/06</span>
+    <a href="/tags/test/">Test</a>
+  </li>
   
 </ul>
 
