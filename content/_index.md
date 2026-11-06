@@ -16,6 +16,6 @@ This blog serves as my own personal notebook, a portfolio, and personal document
 * **Domains**: Low-level programming, embedded systems, operating systems, reverse engineering, hardware hacking
 * **Languages and Tools**: Assembly (x86), C, Python, Linux, Burp Suite, Wireshark
 
-## Stalk my socials
+## My portfolio
 * **Github**: [github.com/0x4bubakar](https://github.com/0x4bubakar)
 * **TryHackMe**: [tryhackme.com/p/eleetisthaxor133](https://tryhackme.com/p/eleetisthaxor133)
