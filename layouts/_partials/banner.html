@@ -1,0 +1,9 @@
+{{ $banners := resources.Match "banners/*" }}
+{{ if $banners }}
+    <div class="blog-banner-container">
+        {{ range ($banners | shuffle | first 1) }}
+            <img class="blog-banner" src="{{ .RelPermalink }}" alt="Blog Banner">
+        {{ end }}
+        <h1 class="banner-watermark">abu-bakar.co.uk</h1>
+    </div>
+{{ end }}

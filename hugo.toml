@@ -33,13 +33,16 @@ description = "Security research, embedded systems development, and related musi
   category = "categories"
 
 [caches]
+  [caches.assets]
+    maxAge = 0
   [caches.images]
-    dir = ':cacheDir/images'
+    maxAge = 0
 
 [markup]
   [markup.highlight]
     style = "github"
-    lineNos = true
+    noClasses = false
+    lineNos = false
 
   [markup.goldmark.renderer]
     unsafe = true

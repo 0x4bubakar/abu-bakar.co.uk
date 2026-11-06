@@ -13,6 +13,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+
+  schedule: # redeploy every hour to choose a new hour
+    - cron: '0 * * * *'
+
 permissions:
   contents: read
   pages: write

@@ -11,8 +11,8 @@
 
   <body>
     <nav>
+      {{ partial "banner.html" . }}
       <ul class="menu">
-      <h1>ABU-BAKAR.CO.UK</h1>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
