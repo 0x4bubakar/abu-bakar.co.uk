@@ -2,15 +2,15 @@
 title = 'Home'
 +++
 
-Hi, I'm Abu Bakar. I'm a Computer Science Undergraduate at the University of the West of England with an interest for software development, embedded systems, and security research.
+Hi, I'm Abu Bakar. I'm a Computer Science Undergraduate at the University of the West of England passionate about software development, embedded systems, and security research.
 
 ## What you'll find here
 
-This blog is a mixture of my own personal notebook, a portfolio, and as a documentation site where I showcase what I'm learning, building, and breaking:
-* **Projects**: sites, apps, and other tidbits of code I've written that do things.
+This blog serves as my own personal notebook, a portfolio, and personal documentation for the things I'm learning and building:
+* **Projects**: sites, apps, and other tidbits of code.
 * **Security Research**: writeups on CVEs, malware analysis, and hardware hacking.
-* **CTF and competitive programming challenges**: breakdowns of problems and solutions from cybersecurity competitions, as well as coding problems (Leetcode, Codewars, etc.).
-* **Course Notes**: information I've taken from online courses.
+* **CTF and competitive programming challenges**: breakdowns of challenges from cybersecurity competitions, as well as coding problems (Leetcode, Codewars, etc.).
+* **Notes** from online courses, certifications, and things I'm studying.
 
 ## Interests & skills
 * **Domains**: Low-level programming, embedded systems, operating systems, reverse engineering, hardware hacking

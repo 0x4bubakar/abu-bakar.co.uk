@@ -40,8 +40,9 @@ description = "Security research, embedded systems development, and related musi
 
 [markup]
   [markup.highlight]
-    style = "github"
-    noClasses = false
+    style = "onedark"
+    codeFences = true
+    noClasses = true
     lineNos = false
 
   [markup.goldmark.renderer]

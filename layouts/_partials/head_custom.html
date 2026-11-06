@@ -19,7 +19,8 @@
         }
     }
 
-    html, body {
+    html,
+    body {
         height: 100%;
     }
 
@@ -39,42 +40,63 @@
     }
 
     /* Header & Menu */
-    .menu { padding: 0; }
-    .menu li { display: inline-block; }
-    
-    .article-meta, .menu a {
-      background: var(--surface-color);
-      color: var(--text-color);
-      padding: 5px;
-      border-radius: 5px;
-      border: 1px solid var(--border-color);
+    .menu {
+        padding: 0;
     }
 
-    .menu, .article-meta, footer { text-align: center; }
-    .title { font-size: 1.1em; }
-    footer a { text-decoration: none; }
-    
+    .menu li {
+        display: inline-block;
+    }
+
+    .article-meta,
+    .menu a {
+        background: var(--surface-color);
+        color: var(--text-color);
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid var(--border-color);
+    }
+
+    .menu,
+    .article-meta,
+    footer {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
     hr {
-      border: none;
-      border-top: 1px dashed var(--border-color);
+        border: none;
+        border-top: 1px dashed var(--border-color);
     }
 
     /* Tables */
     table {
-      margin: auto;
-      border-collapse: collapse;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
+        margin: auto;
+        border-collapse: collapse;
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
     }
 
-    table thead th { 
-      border-bottom: 1px solid var(--border-color); 
+    table thead th {
+        border-bottom: 1px solid var(--border-color);
     }
-    
-    th, td { padding: 8px 12px; }
 
-    thead, tfoot, tr:nth-child(even) { 
-      background: var(--surface-color); 
+    th,
+    td {
+        padding: 8px 12px;
+    }
+
+    thead,
+    tfoot,
+    tr:nth-child(even) {
+        background: var(--surface-color);
     }
 
     /* Typography & Links */
@@ -87,7 +109,12 @@
         padding-bottom: 2rem;
     }
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-family: Tahoma, Verdana, sans-serif;
         font-weight: bold;
         letter-spacing: 0;
@@ -96,14 +123,21 @@
     }
 
     /* Miscellaneous elements */
-    img, iframe, video { max-width: 100%; }
-    main { hyphens: auto; }
-    
+    img,
+    iframe,
+    video {
+        max-width: 100%;
+    }
+
+    main {
+        hyphens: auto;
+    }
+
     blockquote {
-      background: var(--surface-color);
-      border-left: 5px solid var(--link-color);
-      padding: 3px 1em 3px;
-      margin: 1em 0;
+        background: var(--surface-color);
+        border-left: 5px solid var(--link-color);
+        padding: 3px 1em 3px;
+        margin: 1em 0;
     }
 
     /* Banner Container & Centered Watermark Title */
@@ -141,5 +175,22 @@
         letter-spacing: 1px;
         white-space: nowrap;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Inline Code Styling */
+    :not(pre)>code {
+        background-color: var(--surface-color);
+        color: var(--text-color);
+        padding: 0.2em 0.4em;
+        font-size: 0.85em;
+        border: 1px solid var(--border-color);
+        border-radius: 3px;
+    }
+
+    /* Ensure fenced code blocks (inside <pre>) are unaffected */
+    pre code {
+        background-color: transparent;
+        border: none;
+        padding: 0;
     }
 </style>
