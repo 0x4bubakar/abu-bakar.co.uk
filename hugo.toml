@@ -2,6 +2,8 @@ baseURL = 'https://abu-bakar.co.uk/'
 languageCode = 'en-gb'
 title = "Abu Bakar's Blog"
 theme = 'xmin'
+author = "0x4bubakar"
+description = "Security research, embedded systems development, and related musings."
 
 [permalinks]
  posts = "/posts/:slug"
@@ -18,7 +20,23 @@ theme = 'xmin'
   name = "Posts"
   url = "/posts/"
   weight = 2
+ [[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup]
+ [markup.highlight]
+   style = "github"
+   lineNos = true
+
+  [markup.goldmark.renderer]
+    unsafe = true
