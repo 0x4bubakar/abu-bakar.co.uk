@@ -3,6 +3,22 @@ languageCode = 'en-gb'
 title = "Abu Bakar's Blog"
 theme = 'xmin'
 
+[permalinks]
+ posts = "/posts/:slug"
+
+[params]
+ footer = "&copy; 2026 abu-bakar.co.uk - all rights reserved | Built with <3 using [Hugo](https://gohugo.io/) and Yihui Xie's [XMin](https://xmin.yihui.org/) theme. "
+
+[menu]
+ [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+ [[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
