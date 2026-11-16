@@ -18,4 +18,4 @@ This blog serves as my own personal notebook, a portfolio, and personal document
 
 ## My portfolio
 * **Github**: [github.com/0x4bubakar](https://github.com/0x4bubakar)
-* **TryHackMe**: [tryhackme.com/p/eleetisthaxor133](https://tryhackme.com/p/eleetisthaxor133)
+* **TryHackMe**: [tryhackme.com/p/eleetisthaxor133](https://tryhackme.com/p/0x4bubakar)
